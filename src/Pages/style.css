@@ -15,9 +15,25 @@
 
 @media screen and (max-width: 480px) {
   /* Herader */
+  .header-right {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header {
+    position: fixed;
+  }
+  .header a {
+    padding: 6px;
+    white-space: nowrap;
+  }
+
+  .menu_item a {
+    font-size: 12px;
+  }
 
   .bold_heading {
-    margin-top: 20px;
+    margin-top: 100px;
     width: 395px;
     font-size: 25px;
   }
@@ -26,6 +42,13 @@
     font-size: 25px;
   }
 
+  .backdrop {
+    height: 500px;
+  }
+
+  .home_banner {
+    height: 500px;
+  }
   /* certificate */
   .certificate_container {
     height: 30rem;
@@ -42,6 +65,15 @@
   }
   /* why buy buy from us ? */
 
+  .cockpit_img{
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+
+  .cockpit_img img{
+    height: 190px;
+    width: 200px;
+  }
   .text_side {
     width: 75%;
   }
@@ -58,6 +90,10 @@
     margin-left: 0;
     width: auto;
     border-radius: 10px;
+  }
+
+.img{
+    margin-right: 92px !important;
   }
 
   /* aboutUs */

@@ -15,12 +15,9 @@ const App = () => {
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/product" Component={OurProducts} />
-        <Route path="/aboutUs" Component={AboutUs}/>
-        <Route path="/contactUs" Component={ContactUs}/>
-
-        <Route path="/certificate" Component={Certificate}/>
-
-
+        <Route path="/aboutUs" Component={AboutUs} />
+        <Route path="/contactUs" Component={ContactUs} />
+        <Route path="/certificate" Component={Certificate} />
       </Routes>
     </div>
   );

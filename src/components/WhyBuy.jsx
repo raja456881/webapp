@@ -22,6 +22,7 @@ const WhyBuy = () => {
         <div className="image_side">
           <div className="barometer_image">
             <img
+            className=" img"
               src={barometer}
               alt="barometer"
               height={190}
@@ -40,6 +41,7 @@ const WhyBuy = () => {
           </div>
           <div className="welding_img">
             <img
+            className=" img"
               src={barometer}
               alt="welding"
               height={190}
