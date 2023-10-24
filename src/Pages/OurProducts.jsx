@@ -6,6 +6,7 @@ import prod3 from "../assets/prod3.svg";
 import prod4 from "../assets/prod4.svg";
 import prod5 from "../assets/prod5.svg";
 import generative from "../assets/generativeparts.svg";
+import ProductFooter from "../components/ProductFooter";
 const OurProducts = () => {
   const list = [
     prod1,
@@ -20,17 +21,14 @@ const OurProducts = () => {
   ];
 
   return (
-    <div style={{ marginBottom: "20px" }}>
+    <div>
       <div className="prod_headline">Our Product</div>
       <div className="product_listing">
         {list.map((el) => {
           return <Product pic={el} key={Math.random() * 56} />;
         })}
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
+      <ProductFooter />
     </div>
   );
 };

@@ -8,6 +8,7 @@ import prod3 from "../assets/prod3.svg";
 import prod4 from "../assets/prod4.svg";
 import prod5 from "../assets/prod5.svg";
 import generative from "../assets/generativeparts.svg";
+import '../../src/App.css'
 const Products = () => {
   const navigate = useNavigate();
   const list = [prod1, prod2, prod3, prod4, prod5, generative];

@@ -9,16 +9,10 @@ const AboutUs = () => {
       <div className="about-us-wrap">
         <div className="about_us_heading">About Us</div>
         <p className="aboutus_para">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+        Dynamics Werk Limited specializes in creating 2D & 3D CAD designs for metal parts, metal structures, general purpose machined parts and Hardware Our expert team of manufacturers based worldwide specialize in locating designs for Mechanical parts and produce or 
         </p>
         <p className="aboutus_para">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum."
+        re-produce parts as per the Military or Non-Military specifications required by the end-user We source specialized shops to engineer components as per Military or non-Military specifications.
         </p>
       </div>
       {/* images  */}
