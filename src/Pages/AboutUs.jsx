@@ -1,9 +1,18 @@
-import React from "react";
+import {React, useEffect} from "react";
 import img1 from "../assets/img.svg";
 import parts from "../assets/parts.svg";
 import delivery from "../assets/delivery.svg";
 import recycled from "../assets/recycled.svg";
 const AboutUs = () => {
+
+
+
+
+  useEffect(() => {
+    window.scrollTo({top:705, left:0, behavior:"smooth"})
+  }, []);
+
+
   return (
     <>
       <div className="about-us-wrap">
