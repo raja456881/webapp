@@ -4,6 +4,7 @@ import React, { useEffect , useState} from "react";
 
 import axios from "axios";
 import Product from "../components/Product";
+import ProductFooter from "../components/fotter"
 
 const OurProducts = () => {
   useEffect(() => {
