@@ -1,12 +1,12 @@
+
+
 import React, { useEffect , useState} from "react";
-import Product from "../components/Product";
+
 import axios from "axios";
+import Product from "../components/Product";
+
 const OurProducts = () => {
-  const [productdata, setproductdata ] = useState();
-
-
-
-useEffect(() => {
+  useEffect(() => {
     axios({
       // Endpoint to send files
       url: "https://amey1331.pythonanywhere.com/get-product",
@@ -22,23 +22,19 @@ useEffect(() => {
       .catch((err) => { });
 }, []);
   
-    return (
-    <div style={{ marginBottom: "20px" }}>
+  return (
+    <div>
       <div className="prod_headline">Our Product</div>
       <div className="product_listing">
-       
         {productdata?.data.map((iteam, index) => {
           console.log(iteam)
-            return <Product pic={`https://amey1331.pythonanywhere.com/${iteam?.image}`} name={iteam?.name} key={iteam?.id} />
-          
+            return <Product pic={`https://amey1331.pythonanywhere.com/${iteam?.image}`} name={iteam?.name} key={iteam?.id} />          
         })}
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
+      <ProductFooter />
     </div>
   );
 };
 
 export default OurProducts;
+

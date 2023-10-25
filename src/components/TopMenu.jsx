@@ -22,7 +22,6 @@ const TopMenu = () => {
         style={{ background: scroll > 2 ? "white" : "transparent" }}
       >
         <a href="#default" class="logo">
-          {/* <img src={logo} alt="" style={{ height: "50px" }} /> */}
         </a>
         <div class="header-right">
           <div className="menu_item">

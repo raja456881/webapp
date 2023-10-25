@@ -1,3 +1,4 @@
+
 import React from "react";
 import generative from "../assets/generativeparts.svg";
 const Product = ({ pic, name }) => {

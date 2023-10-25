@@ -10,19 +10,18 @@ const WhyBuy = () => {
           <div className="wb_main_heading">Why Buy From Us?</div>
           <p className="wb_sub_heading">Peace of Mind</p>
           <p className="wb_para">
-            Why stress out searching all over town for your parts? Our extensive
-            inventory and exclusive network puts millions of parts at our finger
-            tips. This unique advantage gives us the ability to say “YES” when
-            others say no, eliminating a lot of wasted time and money for you.
-            In most cases, if you are a local business, parts will be delivered
-            the next business day. Our goal is to be your “
+            Our team is driven by professionalism and inspired by the passion to
+            design and develop the best. We keep on scouting the market for the
+            top class metal parts design and fabrication solutions and bring for
+            your worthy deals The products we develop not only deliver aesthetic
+            value to the ambience but are also optimized for functionality
           </p>
           <div className="learn_more_btn">Learn More</div>
         </div>
         <div className="image_side">
           <div className="barometer_image">
             <img
-            className=" img"
+              className=" img"
               src={barometer}
               alt="barometer"
               height={190}
@@ -41,7 +40,7 @@ const WhyBuy = () => {
           </div>
           <div className="welding_img">
             <img
-            className=" img"
+              className=" img"
               src={barometer}
               alt="welding"
               height={190}
