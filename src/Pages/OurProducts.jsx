@@ -4,9 +4,18 @@ import React, { useEffect , useState} from "react";
 
 import axios from "axios";
 import Product from "../components/Product";
+import ProductFooter from "../components/ProductFooter"
+
+
 
 const OurProducts = () => {
+  const [productdata, setproductdata ] = useState();
+  
+
+
   useEffect(() => {
+    window.scrollTo({top:705, left:0, behavior:"smooth"})
+
     axios({
       // Endpoint to send files
       url: "https://amey1331.pythonanywhere.com/get-product",
@@ -37,4 +46,6 @@ const OurProducts = () => {
 };
 
 export default OurProducts;
+
+
 

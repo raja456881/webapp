@@ -1,7 +1,12 @@
-import React from "react";
+import {React, useEffect} from "react";
 import "../App.css";
 import contactImg from "../assets/unsplash_TyanDMPxwHc.png";
 const ContactUs = () => {
+
+  useEffect(() => {
+    window.scrollTo({top:915, left:0, behavior:"smooth"})
+  }, []);
+
   return (
     <div className="contact_box">
       <div className="contact_container">
