@@ -10,7 +10,7 @@ import Certificate from "./Pages/Certificate";
 import ContactUs from "./Pages/ContactUs";
 const App = () => {
   return (
-    <div style={{ width: "100vw", height: "100%" }}>
+    <div style={{ width: "100%", height: "100%", overflowX: "hidden" }}>
       <Homebanner />
       <Routes>
         <Route path="/" Component={Home} />
