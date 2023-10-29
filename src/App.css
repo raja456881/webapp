@@ -56,6 +56,7 @@
   place-items: center;
   width: 100%;
   margin-bottom: 50px;
+  overflow-x: hidden;
 }
 
 .about_us_heading {
@@ -205,7 +206,7 @@
 
 /* product component */
 .prod_div {
-  overflow-y: hidden;
+  overflow: hidden;
   margin: 10px;
   width: 350px;
   height: fit-content;
@@ -322,11 +323,10 @@
   background-image: url(../src/assets/IMAGE.png);
 }
 
-
 .footer_items {
   width: 100vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   color: #e3f0ff;
 }
@@ -395,6 +395,7 @@
   background-position-y: center;
   object-fit: contain;
   object-position: center;
+  overflow-x: hidden;
 }
 .bold_heading {
   width: 898px;
@@ -537,27 +538,6 @@
   display: flex;
 }
 
-@media screen and (max-width: 480px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-  }
-
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-  .header-right {
-    float: none;
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 /* contact us  */
 
 .contact_box {
@@ -666,4 +646,69 @@
   font-weight: 400;
   line-height: 64px; /* 376.471% */
   text-transform: uppercase;
+}
+
+.footer_p{
+  width: 310px;
+    margin-top: 15px;
+}
+@media screen and (max-width: 480px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .header_links {
+    margin: 0 5px;
+    font-size: 8px;
+  }
+
+  .link_box {
+    width: 100vw;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  .blue_triangle {
+    position: absolute;
+    top: 65px;
+  }
+  .blue_triangle img {
+    width: 200px;
+  }
+
+  .logo_img img {
+    width: 60px;
+  }
+
+  .wb_para {
+    width: 295px;
+  }
+
+  .prod_div {
+    width: 340px;
+    box-shadow: 0px 0px;
+  }
+  .prod_div img {
+    width: 340px;
+  }
+
+  .footer_p{
+    width: 308px;
+  }
 }

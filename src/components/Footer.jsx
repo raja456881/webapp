@@ -11,7 +11,6 @@ import "../../src/App.css";
 
 const Footer = () => {
   return (
-  
     <div className="parent">
       <div className="upppperDiv">
         <ContactUs />
@@ -20,7 +19,7 @@ const Footer = () => {
       <div className="lowerDiv">
         <div className="footer_wrapper">
           <div className="footer_items">
-            <div>
+            {/* <div>
               <ul className="footer_addres_ul">
                 <li className="footer_addres">Capital Bolts and Hardware</li>
                 <li className="footer_addres">
@@ -47,6 +46,12 @@ const Footer = () => {
                 <li className="footer_policies">Returns / Refunds</li>
                 <li className="footer_policies">Shipping / Delivery</li>
               </ul>
+            </div> */}
+            <div style={{ width: "200px" }}>
+              <p>Dynamics Werx Limited</p>
+              <p className="footer_p">
+                10 Pield Health Avenue Uxbridge UB8 3PB UK
+              </p>
             </div>
           </div>
         </div>

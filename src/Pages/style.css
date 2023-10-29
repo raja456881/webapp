@@ -33,22 +33,15 @@
   }
 
   .bold_heading {
-    margin-top: 100px;
-    width: 395px;
-    font-size: 25px;
+    margin-top: 280px;
+    width: 350px;
+    font-size: 20px;
   }
   .sub_heading_home {
     width: 300px;
     font-size: 25px;
   }
 
-  /* .backdrop {
-    height: 500px;
-  } */
-
-  /* .home_banner {
-    height: 500px;
-  } */
   /* certificate */
   .certificate_container {
     height: 30rem;
@@ -56,8 +49,8 @@
   }
 
   .certificate_img {
-    width: 25rem;
-    height: 30rem;
+    width: 20rem;
+    height: 25rem;
   }
 
   .front_content {
@@ -65,14 +58,15 @@
   }
   /* why buy buy from us ? */
 
-  .cockpit_img{
-    margin-top: 0;
-    margin-bottom: 35px;
+  .cockpit_img {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border-width: 5px;
   }
 
-  .cockpit_img img{
+  .cockpit_img img {
     height: 190px;
-    width: 200px;
+    width: 285px;
   }
   .text_side {
     width: 75%;
@@ -92,7 +86,7 @@
     border-radius: 10px;
   }
 
-.img{
+  .img {
     margin-right: 92px !important;
   }
 
@@ -124,5 +118,14 @@
   .product_listing {
     display: flex;
     flex-wrap: wrap;
+  }
+  /* contact */
+  .contact_img {
+    display: none;
+  }
+
+  /* copyrights */
+  .copyright p {
+    font-size: 14px;
   }
 }
